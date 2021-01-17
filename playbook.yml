@@ -1,6 +1,6 @@
 - hosts: server
   vars:
-  - image: wahyurap/apache-docker-ansible
+  - image: wahyurap10/apache-docker-ansible
   tasks:
     - name: install python-docker di ubuntu
       apt:
